@@ -1,0 +1,37 @@
+.cf {
+	font-size: var(--common-font-size);
+}
+.row {
+	--bs-gutter-x: 1.2rem;
+}
+
+.search {
+	border: 1px solid;
+	/* padding: 0 10px; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.search input {
+	border: none;
+}
+.search input:focus {
+	outline: none;
+}
+.burger {
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+.offcanvas {
+	max-width: 70%;
+}
+.accordion-button {
+	font-size: var(--common-font-size);
+}
+.accordion-button::after {
+	content: none;
+}
+.accordion-body svg {
+	font-size: 1.5em;
+	margin-right: 10px;
+}
